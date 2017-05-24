@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DFBAB9D1EC5A94C00F0239D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBAB9C1EC5A94C00F0239D /* main.m */; };
+		7DFBABA01EC5A94C00F0239D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBAB9F1EC5A94C00F0239D /* AppDelegate.m */; };
+		7DFBABA31EC5A94D00F0239D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBABA21EC5A94D00F0239D /* ViewController.m */; };
+		7DFBABA61EC5A94D00F0239D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFBABA41EC5A94D00F0239D /* Main.storyboard */; };
+		7DFBABA81EC5A94D00F0239D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DFBABA71EC5A94D00F0239D /* Assets.xcassets */; };
+		7DFBABAB1EC5A94D00F0239D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFBABA91EC5A94D00F0239D /* LaunchScreen.storyboard */; };
+		7DFBABB61EC5A94D00F0239D /* ZBLocalizedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBABB51EC5A94D00F0239D /* ZBLocalizedTests.m */; };
+		7DFBABC11EC5A94D00F0239D /* ZBLocalizedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBABC01EC5A94D00F0239D /* ZBLocalizedUITests.m */; };
+		7DFBABD31EC5AB4600F0239D /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBABD21EC5AB4600F0239D /* TabBarController.m */; };
+		7DFBABD61EC5AC0C00F0239D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBABD51EC5AC0C00F0239D /* FirstViewController.m */; };
+		7DFBABD91EC5AC1F00F0239D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBABD81EC5AC1F00F0239D /* SecondViewController.m */; };
+		7DFBABDC1EC5AC5000F0239D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBABDB1EC5AC5000F0239D /* ThirdViewController.m */; };
+		7DFBABDF1EC5B16C00F0239D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DFBABE11EC5B16C00F0239D /* Localizable.strings */; };
+		7DFBABE61EC5B77400F0239D /* LanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBABE51EC5B77400F0239D /* LanguageViewController.m */; };
+		7DFBABEA1EC5BE1800F0239D /* ZBLocalized.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBABE91EC5BE1800F0239D /* ZBLocalized.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DFBABB21EC5A94D00F0239D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DFBAB901EC5A94C00F0239D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DFBAB971EC5A94C00F0239D;
+			remoteInfo = ZBLocalized;
+		};
+		7DFBABBD1EC5A94D00F0239D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DFBAB901EC5A94C00F0239D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DFBAB971EC5A94C00F0239D;
+			remoteInfo = ZBLocalized;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DFBAB981EC5A94C00F0239D /* ZBLocalized.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBLocalized.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFBAB9C1EC5A94C00F0239D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DFBAB9E1EC5A94C00F0239D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DFBAB9F1EC5A94C00F0239D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DFBABA11EC5A94D00F0239D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DFBABA21EC5A94D00F0239D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DFBABA51EC5A94D00F0239D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DFBABA71EC5A94D00F0239D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DFBABAA1EC5A94D00F0239D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DFBABAC1EC5A94D00F0239D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DFBABB11EC5A94D00F0239D /* ZBLocalizedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBLocalizedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFBABB51EC5A94D00F0239D /* ZBLocalizedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBLocalizedTests.m; sourceTree = "<group>"; };
+		7DFBABB71EC5A94D00F0239D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DFBABBC1EC5A94D00F0239D /* ZBLocalizedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBLocalizedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFBABC01EC5A94D00F0239D /* ZBLocalizedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBLocalizedUITests.m; sourceTree = "<group>"; };
+		7DFBABC21EC5A94D00F0239D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DFBABD11EC5AB4600F0239D /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		7DFBABD21EC5AB4600F0239D /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		7DFBABD41EC5AC0C00F0239D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7DFBABD51EC5AC0C00F0239D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7DFBABD71EC5AC1F00F0239D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7DFBABD81EC5AC1F00F0239D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7DFBABDA1EC5AC5000F0239D /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		7DFBABDB1EC5AC5000F0239D /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		7DFBABE01EC5B16C00F0239D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7DFBABE21EC5B17700F0239D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7DFBABE31EC5B18200F0239D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7DFBABE41EC5B77400F0239D /* LanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageViewController.h; sourceTree = "<group>"; };
+		7DFBABE51EC5B77400F0239D /* LanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageViewController.m; sourceTree = "<group>"; };
+		7DFBABE81EC5BE1800F0239D /* ZBLocalized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBLocalized.h; sourceTree = "<group>"; };
+		7DFBABE91EC5BE1800F0239D /* ZBLocalized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBLocalized.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DFBAB951EC5A94C00F0239D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFBABAE1EC5A94D00F0239D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFBABB91EC5A94D00F0239D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DFBAB8F1EC5A94C00F0239D = {
+			isa = PBXGroup;
+			children = (
+				7DFBAB9A1EC5A94C00F0239D /* ZBLocalized */,
+				7DFBABB41EC5A94D00F0239D /* ZBLocalizedTests */,
+				7DFBABBF1EC5A94D00F0239D /* ZBLocalizedUITests */,
+				7DFBAB991EC5A94C00F0239D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DFBAB991EC5A94C00F0239D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DFBAB981EC5A94C00F0239D /* ZBLocalized.app */,
+				7DFBABB11EC5A94D00F0239D /* ZBLocalizedTests.xctest */,
+				7DFBABBC1EC5A94D00F0239D /* ZBLocalizedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DFBAB9A1EC5A94C00F0239D /* ZBLocalized */ = {
+			isa = PBXGroup;
+			children = (
+				7DFBABE71EC5BE1800F0239D /* ZBLocalized */,
+				7DFBABD11EC5AB4600F0239D /* TabBarController.h */,
+				7DFBABD21EC5AB4600F0239D /* TabBarController.m */,
+				7DFBABD41EC5AC0C00F0239D /* FirstViewController.h */,
+				7DFBABD51EC5AC0C00F0239D /* FirstViewController.m */,
+				7DFBABD71EC5AC1F00F0239D /* SecondViewController.h */,
+				7DFBABD81EC5AC1F00F0239D /* SecondViewController.m */,
+				7DFBABDA1EC5AC5000F0239D /* ThirdViewController.h */,
+				7DFBABDB1EC5AC5000F0239D /* ThirdViewController.m */,
+				7DFBABE41EC5B77400F0239D /* LanguageViewController.h */,
+				7DFBABE51EC5B77400F0239D /* LanguageViewController.m */,
+				7DFBAB9E1EC5A94C00F0239D /* AppDelegate.h */,
+				7DFBAB9F1EC5A94C00F0239D /* AppDelegate.m */,
+				7DFBABA11EC5A94D00F0239D /* ViewController.h */,
+				7DFBABA21EC5A94D00F0239D /* ViewController.m */,
+				7DFBABA41EC5A94D00F0239D /* Main.storyboard */,
+				7DFBABA71EC5A94D00F0239D /* Assets.xcassets */,
+				7DFBABA91EC5A94D00F0239D /* LaunchScreen.storyboard */,
+				7DFBABAC1EC5A94D00F0239D /* Info.plist */,
+				7DFBAB9B1EC5A94C00F0239D /* Supporting Files */,
+				7DFBABE11EC5B16C00F0239D /* Localizable.strings */,
+			);
+			path = ZBLocalized;
+			sourceTree = "<group>";
+		};
+		7DFBAB9B1EC5A94C00F0239D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DFBAB9C1EC5A94C00F0239D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DFBABB41EC5A94D00F0239D /* ZBLocalizedTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DFBABB51EC5A94D00F0239D /* ZBLocalizedTests.m */,
+				7DFBABB71EC5A94D00F0239D /* Info.plist */,
+			);
+			path = ZBLocalizedTests;
+			sourceTree = "<group>";
+		};
+		7DFBABBF1EC5A94D00F0239D /* ZBLocalizedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DFBABC01EC5A94D00F0239D /* ZBLocalizedUITests.m */,
+				7DFBABC21EC5A94D00F0239D /* Info.plist */,
+			);
+			path = ZBLocalizedUITests;
+			sourceTree = "<group>";
+		};
+		7DFBABE71EC5BE1800F0239D /* ZBLocalized */ = {
+			isa = PBXGroup;
+			children = (
+				7DFBABE81EC5BE1800F0239D /* ZBLocalized.h */,
+				7DFBABE91EC5BE1800F0239D /* ZBLocalized.m */,
+			);
+			path = ZBLocalized;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DFBAB971EC5A94C00F0239D /* ZBLocalized */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DFBABC51EC5A94D00F0239D /* Build configuration list for PBXNativeTarget "ZBLocalized" */;
+			buildPhases = (
+				7DFBAB941EC5A94C00F0239D /* Sources */,
+				7DFBAB951EC5A94C00F0239D /* Frameworks */,
+				7DFBAB961EC5A94C00F0239D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZBLocalized;
+			productName = ZBLocalized;
+			productReference = 7DFBAB981EC5A94C00F0239D /* ZBLocalized.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DFBABB01EC5A94D00F0239D /* ZBLocalizedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DFBABC81EC5A94D00F0239D /* Build configuration list for PBXNativeTarget "ZBLocalizedTests" */;
+			buildPhases = (
+				7DFBABAD1EC5A94D00F0239D /* Sources */,
+				7DFBABAE1EC5A94D00F0239D /* Frameworks */,
+				7DFBABAF1EC5A94D00F0239D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DFBABB31EC5A94D00F0239D /* PBXTargetDependency */,
+			);
+			name = ZBLocalizedTests;
+			productName = ZBLocalizedTests;
+			productReference = 7DFBABB11EC5A94D00F0239D /* ZBLocalizedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DFBABBB1EC5A94D00F0239D /* ZBLocalizedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DFBABCB1EC5A94D00F0239D /* Build configuration list for PBXNativeTarget "ZBLocalizedUITests" */;
+			buildPhases = (
+				7DFBABB81EC5A94D00F0239D /* Sources */,
+				7DFBABB91EC5A94D00F0239D /* Frameworks */,
+				7DFBABBA1EC5A94D00F0239D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DFBABBE1EC5A94D00F0239D /* PBXTargetDependency */,
+			);
+			name = ZBLocalizedUITests;
+			productName = ZBLocalizedUITests;
+			productReference = 7DFBABBC1EC5A94D00F0239D /* ZBLocalizedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DFBAB901EC5A94C00F0239D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Suzhibin;
+				TargetAttributes = {
+					7DFBAB971EC5A94C00F0239D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					7DFBABB01EC5A94D00F0239D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7DFBAB971EC5A94C00F0239D;
+					};
+					7DFBABBB1EC5A94D00F0239D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7DFBAB971EC5A94C00F0239D;
+					};
+				};
+			};
+			buildConfigurationList = 7DFBAB931EC5A94C00F0239D /* Build configuration list for PBXProject "ZBLocalized" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 7DFBAB8F1EC5A94C00F0239D;
+			productRefGroup = 7DFBAB991EC5A94C00F0239D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DFBAB971EC5A94C00F0239D /* ZBLocalized */,
+				7DFBABB01EC5A94D00F0239D /* ZBLocalizedTests */,
+				7DFBABBB1EC5A94D00F0239D /* ZBLocalizedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DFBAB961EC5A94C00F0239D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFBABAB1EC5A94D00F0239D /* LaunchScreen.storyboard in Resources */,
+				7DFBABDF1EC5B16C00F0239D /* Localizable.strings in Resources */,
+				7DFBABA81EC5A94D00F0239D /* Assets.xcassets in Resources */,
+				7DFBABA61EC5A94D00F0239D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFBABAF1EC5A94D00F0239D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFBABBA1EC5A94D00F0239D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DFBAB941EC5A94C00F0239D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFBABA31EC5A94D00F0239D /* ViewController.m in Sources */,
+				7DFBABD61EC5AC0C00F0239D /* FirstViewController.m in Sources */,
+				7DFBABDC1EC5AC5000F0239D /* ThirdViewController.m in Sources */,
+				7DFBABA01EC5A94C00F0239D /* AppDelegate.m in Sources */,
+				7DFBABD91EC5AC1F00F0239D /* SecondViewController.m in Sources */,
+				7DFBABD31EC5AB4600F0239D /* TabBarController.m in Sources */,
+				7DFBAB9D1EC5A94C00F0239D /* main.m in Sources */,
+				7DFBABEA1EC5BE1800F0239D /* ZBLocalized.m in Sources */,
+				7DFBABE61EC5B77400F0239D /* LanguageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFBABAD1EC5A94D00F0239D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFBABB61EC5A94D00F0239D /* ZBLocalizedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFBABB81EC5A94D00F0239D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFBABC11EC5A94D00F0239D /* ZBLocalizedUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DFBABB31EC5A94D00F0239D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DFBAB971EC5A94C00F0239D /* ZBLocalized */;
+			targetProxy = 7DFBABB21EC5A94D00F0239D /* PBXContainerItemProxy */;
+		};
+		7DFBABBE1EC5A94D00F0239D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DFBAB971EC5A94C00F0239D /* ZBLocalized */;
+			targetProxy = 7DFBABBD1EC5A94D00F0239D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DFBABA41EC5A94D00F0239D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DFBABA51EC5A94D00F0239D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DFBABA91EC5A94D00F0239D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DFBABAA1EC5A94D00F0239D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7DFBABE11EC5B16C00F0239D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DFBABE01EC5B16C00F0239D /* en */,
+				7DFBABE21EC5B17700F0239D /* zh-Hans */,
+				7DFBABE31EC5B18200F0239D /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DFBABC31EC5A94D00F0239D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DFBABC41EC5A94D00F0239D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DFBABC61EC5A94D00F0239D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZBLocalized/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-Suzhibin.ZBLocalized";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DFBABC71EC5A94D00F0239D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZBLocalized/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-Suzhibin.ZBLocalized";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7DFBABC91EC5A94D00F0239D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZBLocalizedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-Suzhibin.ZBLocalizedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBLocalized.app/ZBLocalized";
+			};
+			name = Debug;
+		};
+		7DFBABCA1EC5A94D00F0239D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZBLocalizedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-Suzhibin.ZBLocalizedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBLocalized.app/ZBLocalized";
+			};
+			name = Release;
+		};
+		7DFBABCC1EC5A94D00F0239D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZBLocalizedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-Suzhibin.ZBLocalizedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZBLocalized;
+			};
+			name = Debug;
+		};
+		7DFBABCD1EC5A94D00F0239D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZBLocalizedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-Suzhibin.ZBLocalizedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZBLocalized;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DFBAB931EC5A94C00F0239D /* Build configuration list for PBXProject "ZBLocalized" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFBABC31EC5A94D00F0239D /* Debug */,
+				7DFBABC41EC5A94D00F0239D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DFBABC51EC5A94D00F0239D /* Build configuration list for PBXNativeTarget "ZBLocalized" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFBABC61EC5A94D00F0239D /* Debug */,
+				7DFBABC71EC5A94D00F0239D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DFBABC81EC5A94D00F0239D /* Build configuration list for PBXNativeTarget "ZBLocalizedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFBABC91EC5A94D00F0239D /* Debug */,
+				7DFBABCA1EC5A94D00F0239D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DFBABCB1EC5A94D00F0239D /* Build configuration list for PBXNativeTarget "ZBLocalizedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFBABCC1EC5A94D00F0239D /* Debug */,
+				7DFBABCD1EC5A94D00F0239D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DFBAB901EC5A94C00F0239D /* Project object */;
+}

@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  ZBLocalized
+
+  Created by NQ UEC on 2017/5/12.
+  Copyright © 2017年 Suzhibin. All rights reserved.
+*/
+//TabBarController
+"first"="第一页";
+"second"="第二页";
+"third"="第三页";
+"setlanguage"="点击设置语言";

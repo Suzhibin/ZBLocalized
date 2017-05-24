@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  ZBLocalized
+
+  Created by NQ UEC on 2017/5/12.
+  Copyright © 2017年 Suzhibin. All rights reserved.
+*/
+"first"="第壹頁";
+"second"="第二頁";
+"third"="第三頁";
+"setlanguage"="擊設置語言";
