@@ -95,8 +95,10 @@
 - (void)initRootVC{
     TabBarController *tab=[[TabBarController alloc]init];
     tab.selectedIndex=2;
+    /*
     LanguageViewController*LanguageVC=[[LanguageViewController alloc]init];
     LanguageVC=tab.selectedViewController;
+     */
    [self dismissViewControllerAnimated:YES completion:^{
         [UIApplication sharedApplication].keyWindow.rootViewController = tab;
     }];
