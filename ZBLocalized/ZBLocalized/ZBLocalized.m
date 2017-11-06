@@ -52,6 +52,10 @@
         languageCode = @"th";//泰语
     }else if([languageCode hasPrefix:@"hi"]){
         languageCode = @"hi";//印地语
+    }else if([languageCode hasPrefix:@"ru"]){
+        languageCode = @"ru";//俄语
+    }else if([languageCode hasPrefix:@"ja"]){
+        languageCode = @"ja";//日语
     }else if([languageCode hasPrefix:@"en"]){
         languageCode = @"en";//英语
     }else{
